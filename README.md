@@ -50,11 +50,12 @@ All these questions (and more) have detailed answers in the [FAQ](FAQ.md), pleas
 
 ## Easy way to run the script
 
-- Get the latest version of the script using `curl` *or* `wget`
+- Get the latest version of the script using `curl`, `wget`, *or* `fetch`
 
 ```bash
 curl -L https://meltdown.ovh -o spectre-meltdown-checker.sh
 wget https://meltdown.ovh -O spectre-meltdown-checker.sh
+fetch https://meltdown.ovh -o spectre-meltdown-checker.sh
 ```
 
 - Inspect the script. You never blindly run scripts you downloaded from the Internet, do you?
